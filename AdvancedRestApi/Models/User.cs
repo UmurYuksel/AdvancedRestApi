@@ -1,0 +1,16 @@
+﻿namespace AdvancedRestApi.Models
+{
+    public class User
+    {
+        //Everytime will generate unique Id.
+        public Guid Id { get; set; }
+
+        public string Name { get; set; }
+
+        public string Address { get; set; }
+
+        public string Phone { get; set; }
+        public string BloogGroup { get; set; }
+
+    }
+}
